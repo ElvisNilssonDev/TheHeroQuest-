@@ -1,10 +1,12 @@
-﻿namespace TheHeroQuest_
+﻿using TheHeroQuest_.Classes;
+
+namespace TheHeroQuest_
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            MenuHelper.ShowMainMenu();
         }
     }
 }
