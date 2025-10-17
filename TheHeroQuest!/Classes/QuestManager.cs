@@ -6,7 +6,12 @@ using System.Threading.Tasks;
 
 namespace TheHeroQuest_.Classes
 {
-    internal class QuestManager
+    public class QuestManager
     {
+        Quest quest = new Quest();
+        public void AddNewQuest()
+        {
+            
+        }
     }
 }
